@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,37 +6,38 @@
 
 @layer base {
   :root {
-    --jet-black: 9 9 8;
-    --warm-cream: 246 246 243;
+    --jet-black: 10 10 10;
+    --warm-cream: 245 230 211;
+    --accent-orange: 255 107 53;
     --white: 255 255 255;
 
     --background: var(--jet-black);
     --foreground: var(--warm-cream);
 
-    --card: 20 20 18;
+    --card: 26 26 26;
     --card-foreground: var(--warm-cream);
 
-    --popover: 20 20 18;
+    --popover: 26 26 26;
     --popover-foreground: var(--warm-cream);
 
-    --primary: var(--warm-cream);
-    --primary-foreground: var(--jet-black);
+    --primary: var(--accent-orange);
+    --primary-foreground: var(--white);
 
-    --secondary: var(--jet-black);
-    --secondary-foreground: var(--warm-cream);
+    --secondary: var(--warm-cream);
+    --secondary-foreground: var(--jet-black);
 
-    --muted: 30 30 28;
-    --muted-foreground: 180 180 175;
+    --muted: 40 40 40;
+    --muted-foreground: 170 170 170;
 
-    --accent: var(--warm-cream);
-    --accent-foreground: var(--jet-black);
+    --accent: var(--accent-orange);
+    --accent-foreground: var(--white);
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: var(--warm-cream);
+    --destructive: 255 107 53;
+    --destructive-foreground: var(--white);
 
-    --border: 40 40 38;
-    --input: 40 40 38;
-    --ring: var(--warm-cream);
+    --border: 50 50 50;
+    --input: 30 30 30;
+    --ring: var(--accent-orange);
 
     --radius: 1.25rem;
   }
@@ -58,7 +59,8 @@
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
   }
 }
