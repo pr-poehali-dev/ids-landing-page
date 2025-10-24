@@ -185,6 +185,103 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-24 px-6 bg-background">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold mb-4">The Local Advantage</h2>
+            <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
+              Based in Inglewood. No travel fees. Fast turnarounds. We know the airspace, the neighborhoods, and the community.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Card className="p-6 text-center">
+              <div className="text-4xl mb-3">🏘️</div>
+              <h4 className="font-semibold mb-2">Know the Streets</h4>
+              <p className="text-sm text-foreground/60">Every block, every angle.</p>
+            </Card>
+
+            <Card className="p-6 text-center">
+              <div className="text-4xl mb-3">⏱️</div>
+              <h4 className="font-semibold mb-2">Quick Response</h4>
+              <p className="text-sm text-foreground/60">Same-day flights available.</p>
+            </Card>
+
+            <Card className="p-6 text-center">
+              <div className="text-4xl mb-3">✈️</div>
+              <h4 className="font-semibold mb-2">LA Airspace Expert</h4>
+              <p className="text-sm text-foreground/60">Class B certified operations.</p>
+            </Card>
+
+            <Card className="p-6 text-center">
+              <div className="text-4xl mb-3">🤝</div>
+              <h4 className="font-semibold mb-2">Community First</h4>
+              <p className="text-sm text-foreground/60">Your block, our priority.</p>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 px-6 bg-card/30 overflow-hidden">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-5xl font-bold mb-3">What Clients Say</h2>
+            <p className="text-foreground/60 text-lg">Real feedback from real projects.</p>
+          </div>
+
+          <div className="relative">
+            <div className="flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory hide-scrollbar">
+              <Card className="flex-shrink-0 w-[90%] md:w-[450px] p-8 snap-center">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Icon name="User" size={24} className="text-primary" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-lg">Derrica</div>
+                    <div className="text-sm text-foreground/60">Property Manager</div>
+                  </div>
+                </div>
+                <p className="text-foreground/80 text-lg leading-relaxed">
+                  "Jason made our listings look like they belonged in a movie. Booked twice as fast."
+                </p>
+              </Card>
+
+              <Card className="flex-shrink-0 w-[90%] md:w-[450px] p-8 snap-center">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Icon name="User" size={24} className="text-primary" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-lg">Martin</div>
+                    <div className="text-sm text-foreground/60">Contractor</div>
+                  </div>
+                </div>
+                <p className="text-foreground/80 text-lg leading-relaxed">
+                  "Professional, local, and fast. Perfect combo."
+                </p>
+              </Card>
+
+              <Card className="flex-shrink-0 w-[90%] md:w-[450px] p-8 snap-center bg-primary/5 border-primary/20">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center flex-shrink-0 text-2xl">
+                    🚁
+                  </div>
+                  <div>
+                    <div className="font-semibold text-lg">Jason Brooks</div>
+                    <div className="text-sm text-foreground/70">Founder & Operator</div>
+                  </div>
+                </div>
+                <div className="space-y-2 text-sm text-foreground/70">
+                  <p>✈️ FAA Part 107 Certified</p>
+                  <p>🎓 Private Pilot in Training</p>
+                  <p>📍 Inglewood Native</p>
+                </div>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-4">
