@@ -261,24 +261,38 @@ const Index = () => {
                 </p>
               </Card>
 
-              <Card className="flex-shrink-0 w-[90%] md:w-[450px] p-8 snap-center bg-primary/5 border-primary/20">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center flex-shrink-0 text-2xl">
-                    🚁
-                  </div>
-                  <div>
-                    <div className="font-semibold text-lg">Jason Brooks</div>
-                    <div className="text-sm text-foreground/70">Founder & Operator</div>
-                  </div>
-                </div>
-                <div className="space-y-2 text-sm text-foreground/70">
-                  <p>✈️ FAA Part 107 Certified</p>
-                  <p>🎓 Private Pilot in Training</p>
-                  <p>📍 Inglewood Native</p>
-                </div>
-              </Card>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-6 bg-background">
+        <div className="max-w-4xl mx-auto">
+          <Card className="p-8 md:p-12 bg-card/50 border-primary/20">
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center flex-shrink-0 border-2 border-primary/30">
+                <Icon name="User" size={64} className="text-primary" />
+              </div>
+              
+              <div className="flex-1 text-center md:text-left">
+                <h3 className="text-3xl font-bold mb-2">Jason Brooks</h3>
+                <div className="flex flex-col gap-2 text-foreground/70">
+                  <p className="flex items-center justify-center md:justify-start gap-2">
+                    <Icon name="Award" size={18} className="text-primary" />
+                    <span>FAA-Certified Operator</span>
+                  </p>
+                  <p className="flex items-center justify-center md:justify-start gap-2">
+                    <Icon name="Plane" size={18} className="text-primary" />
+                    <span>Private Pilot in Training</span>
+                  </p>
+                  <p className="flex items-center justify-center md:justify-start gap-2">
+                    <Icon name="Users" size={18} className="text-primary" />
+                    <span>Founder, Inglewood Drone Services</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Card>
         </div>
       </section>
 
